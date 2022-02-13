@@ -1,0 +1,35 @@
+.StuView {
+    /* border: 2px solid red; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.StuView label {
+    margin-right: 25px;
+    font-weight: 800;
+    font-size: 14pt;
+    letter-spacing: 1.2px;
+}
+.StuView select {
+    margin-right: 10px;
+    border: 2px solid black;
+    height: 25px;
+    width: 80px;
+    margin-top: 5px;
+}
+.StuTable {
+    margin-top: 40px;
+    padding: 8px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.StuTable thead tr {
+    display: flex;
+    justify-content: space-evenly;
+}
+.StuTable tbody tr {
+    display: flex;
+    justify-content: space-evenly;
+}

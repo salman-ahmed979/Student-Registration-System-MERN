@@ -1,0 +1,19 @@
+create table student(
+	sid int not null auto_increment,
+    stuname varchar(25) not null,
+    age int not null,
+    gender varchar(8) not null,
+    dep varchar(5) not null,
+    phone int not null,
+    addmdate date not null,
+    Primary key (sid)
+);
+
+
+CREATE TABLE users (
+	userName varchar(20),
+    upassword varchar(20),
+    primary key(userName)
+);
+
+-- un: admin ups: admin

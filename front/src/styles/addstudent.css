@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.Stuheading {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    padding: 10px;
+    border: 3px solid black;
+    margin-top: 20px;
+    color: black;
+    background-color: lightblue;
+    border-radius: 300px;
+}
+.StuForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.StuForm label {
+    font-size: 13pt;
+    margin-right: 12px;
+}
+.StuForm div {
+    padding: 5px;
+}
+.StuForm .rad {
+    margin-left: 15px;
+}
+.StuForm select {
+    margin-left: 20px;
+}
+
+#subtn {
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+}
+#subtn:hover {
+    opacity: 0.8;
+    background-color: rgb(132, 186, 202);
+}
